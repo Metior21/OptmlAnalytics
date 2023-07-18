@@ -1941,9 +1941,9 @@ p {
   padding-left: 0.5rem;
 }
 .lm-privacy h3 {
-  font-size: 0.8rem;
-  padding-top: 0.5rem;
-  color: #3d3d3d;
+  font-size: 1.8rem;
+  /* padding-top: 0.5rem; */
+  /* color: #3d3d3d; */
   text-align: left;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1952,6 +1952,12 @@ p {
   font-size: 0.95rem;
   font-weight: 200;
 }
+.in2{
+  height: 120px;
+    /* color: #b92d2d; */
+    mix-blend-mode: overlay;
+}
+
 .video-dialog {
   width: 100%;
   height: 80vh;
@@ -1967,6 +1973,20 @@ p {
     color: #fff;
     padding: 0rem 0rem 0rem;
   }
+  .lm-privacy h3 {
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    /* color: #3d3d3d; */
+    text-align: left;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .in2{
+    height: 101px;
+      /* color: #b92d2d; */
+      mix-blend-mode: overlay;
+  }
+  
 }
 .video-dialog .el-dialog {
   width: 39rem;
