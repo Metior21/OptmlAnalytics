@@ -1167,6 +1167,17 @@ p {
   color: #fff;
   margin-top: 0.5rem;
 }
+.lm-menu .lm-menu__item.hover-underline2nd {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+.lm-menu .lm-menu__item.hover-underline2nd:hover:not(.underline) {
+  border-bottom: 0px solid #fff;
+  margin-bottom: -1px;
+  color: #12a6ad;
+}
 .lm-menu .lm-menu__item.hover-underline:hover:not(.underline) {
   border-bottom: 0px solid #fff;
   margin-bottom: -1px;
@@ -1248,9 +1259,13 @@ p {
     padding-left: 2.4rem;
     width: 70%;
   }
+  .lm-menu .lm-menu__item.hover-underline2nd{
+    visibility: hidden;
+  }
   .lm-menu .lm-menu__left .lm-menu__left__inner .logo-header {
     padding-right: 2rem;
     margin-top: -1rem;
+    margin-left: 1.1rem;
   }
   .lm-menu {
     width: 100%;
